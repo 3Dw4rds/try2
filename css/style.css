@@ -1,0 +1,545 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ /*main page*/
+
+.navbar a{
+  float: left;
+  display: block;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+padding: 50px 30px;
+font-size: 30px;
+width: 180px;
+text-transform: uppercase;
+font-weight: bold;
+left: 5%;
+}
+
+
+.search-container{
+  float: right;
+  padding: 40px 40px;
+}
+
+
+.search-bar button img{
+  width: 50px;
+  border-radius: 50%;
+}
+
+
+.search-bar button{
+  border: 0;
+  border-radius: 50%;
+  width:80px;
+  height: 20px;
+  background: none;
+}
+
+
+#home{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+#home::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: url(../images/lisabg.jpg) no-repeat center center/cover;
+  height: 650px;
+  width: 100%;
+  z-index: -1;
+}
+
+.main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 60%;
+  left: 2%;
+}
+
+.headings{
+  font-size: 2.8rem;
+}
+
+
+/*profile*/
+
+body{
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.profile-navbar a{
+  float: left;
+  display: block;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+padding: 50px 30px;
+font-size: 30px;
+width: 180px;
+text-transform: uppercase;
+font-weight: bold;
+left: 5%;
+}
+
+.profile-search-container{
+  float: right;
+  padding: 40px 40px;
+}
+
+.profile-search-bar button img{
+  width: 50px;
+  border-radius: 50%;
+}
+
+
+.profile-search-bar button{
+  border: 0;
+  border-radius: 50%;
+  width:80px;
+  height: 20px;
+  background: none;
+}
+
+.profile-search-bar{
+float: right;
+}
+
+.profile-billing{
+  background-color: white;
+position: absolute;
+top: 20%;
+left: 1%;
+width: 500px;
+height: 350px;
+border-radius: 3%;
+border: 1px solid purple;
+}
+
+.profile-billing a{
+  color: black;
+  position: absolute;
+  top: 5%;
+  left: 5%;
+font-size: 20px;
+}
+
+.profile-def{
+    display: block;
+    text-align:
+    color: gray;
+  position: absolute;
+  top: 27%;
+  font-size: 13px;
+display: block;
+text-decoration: none;
+color: black;
+text-align: justify;
+width: 50%;
+}
+
+.profile-def a{
+  display: block;
+  position: absolute;
+  top:0;
+  left: 5%;
+  display: block;
+  text-decoration: none;
+}
+
+.profile-mark{
+  display: block;
+  text-align:
+  color: gray;
+position: absolute;
+top: 33%;
+font-size: 20px;
+display: block;
+text-decoration: none;
+color: black;
+text-align: justify;
+width: 50%;
+font-weight: bold;
+}
+
+.profile-mark a{
+  display: block;
+  position: absolute;
+  top:0;
+  left: 5%;
+  display: block;
+  text-decoration: none;
+}
+
+.profile-str{
+  display: block;
+  text-align:
+  color: gray;
+position: absolute;
+top: 37%;
+font-size: 13px;
+display: block;
+text-decoration: none;
+color: black;
+text-align: justify;
+width: 50%;
+}
+
+.profile-str a{
+  display: block;
+  position: absolute;
+  top:0;
+  left: 5%;
+  display: block;
+  text-decoration: none;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 30%;
+  position: absolute;
+  top: 48%;
+  left: 3%
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 5px;
+}
+
+td img{
+  width: 30px;
+  height: 30px;
+}
+
+
+/*jennie*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.jeni-navbar a{
+  float: left;
+  display: block;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+padding: 50px 30px;
+font-size: 23px;
+width: 180px;
+text-transform: uppercase;
+font-weight: bold;
+left: 5%;
+}
+
+.jeni-search-container{
+  float: right;
+  padding: 40px 40px;
+}
+
+body{
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.jeni-search-container input img{
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+
+
+.jeni-search-container input{
+  border: 0;
+  border-radius: 50%;
+  width:40px;
+  height: 40px;
+  background: none;
+  margin: 10px 10px 10px 10px;
+
+}
+
+
+
+
+.main a{
+display: flex;
+flex-direction: column;
+align-items: center;
+position: absolute;
+top:50%;
+left: 5%;
+color: white;
+font-size:50px;
+}
+
+.jeni-navbar a:hover{
+  color: pink;
+}
+
+#jeni-flip{
+display: flex;
+flex-direction: column;
+}
+
+#jeni-top{
+  display: flex;
+}
+
+#jeni-top img{
+  width: 200px;
+  height: 150px;
+  position: absolute;
+  top: 20%;
+  left: 15%;
+}
+
+.jeni-head h3{
+  width: 300px;
+  height: 200px;
+  position: absolute;
+  top: 45%;
+  left: 20%;
+  color: white;
+}
+
+.jeni-small a{
+  width: 300px;
+  height: 200px;
+  position: absolute;
+  top: 50%;
+  left: 16%;
+  color: white;
+  font-weight: lighter;
+  font-size: 15px;
+}
+
+.jeni-btn{
+  padding: 5px 10px;
+border-radius: 20%;
+  background-color: transparent;
+  border: 1px solid purple;
+  color: white;
+  outline:none;
+  transition: .6s ease;
+  position: absolute;
+  top: 55%;
+  left: 20%;
+  font-weight: bold;
+}
+
+#jeni-ultra{
+display: flex;
+flex-direction: column;
+}
+
+#jeni-left{
+  display: flex;
+}
+
+#jeni-left img{
+  width: 200px;
+  height: 150px;
+  position: absolute;
+  top: 60%;
+  left: 3%;
+}
+
+.jeni-s22 h3{
+  width: 300px;
+  height: 200px;
+  position: absolute;
+  top: 83%;
+  left: 6%;
+  color: white;
+}
+
+.jeni-tiny a{
+  width: 300px;
+  height: 200px;
+  position: absolute;
+  top: 87%;
+  left: 3%;
+  color: white;
+  font-weight: lighter;
+}
+
+.jeni-btt{
+  padding: 5px 10px;
+border-radius: 20%;
+  background-color: transparent;
+  border: 1px solid purple;
+  color: white;
+  outline:none;
+  transition: .6s ease;
+  position: absolute;
+  top: 91%;
+  left: 7%;
+  font-weight: bold;
+}
+
+#jeni-butterfly{
+display: flex;
+flex-direction: column;
+}
+
+#jeni-right{
+  display: flex;
+}
+
+#jeni-right img{
+  width:200px;
+  height: 150px;
+  position: absolute;
+  top: 60%;
+  left: 30%;
+  background: none;
+}
+
+.jeni-Fold h3{
+  width: 300px;
+  height: 200px;
+  position: absolute;
+  top: 83%;
+  left: 33%;
+  color: white;
+}
+
+.jeni-f4 a{
+  width: 300px;
+  height: 200px;
+  position: absolute;
+  top: 87%;
+  left: 29%;
+  color: white;
+  font-weight: lighter;
+}
+
+.jeni-bto{
+  padding: 5px 10px;
+border-radius: 20%;
+  background-color: transparent;
+  border: 1px solid purple;
+  color: white;
+  outline:none;
+  transition: .6s ease;
+  position: absolute;
+  top: 91%;
+  left: 35%;
+  font-weight: bold;
+}
+
+#jeni-buttons{
+display: flex;
+flex-direction: column;
+}
+
+#jeni-green{
+  display: flex;
+}
+
+#jeni-green img{
+  width:200px;
+  height: 150px;
+  position: absolute;
+  top: 60%;
+  left: 30%;
+  background: none;
+}
+
+.jeni-Fold h3{
+  width: 300px;
+  height: 200px;
+  position: absolute;
+  top: 83%;
+  left: 33%;
+  color: white;
+}
+
+.jeni-f4 a{
+  width: 300px;
+  height: 200px;
+  position: absolute;
+  top: 87%;
+  left: 29%;
+  color: white;
+  font-weight: lighter;
+}
+
+.jeni-bto{
+  padding: 5px 10px;
+border-radius: 20%;
+  background-color: transparent;
+  border: 1px solid purple;
+  color: white;
+  outline:none;
+  transition: .6s ease;
+  position: absolute;
+  top: 91%;
+  left: 35%;
+  font-weight: bold;
+}
+
+.jeni-green{
+  float: left;
+  padding: 30px 30px;
+}
+
+.jeni-green input img{
+  width: 17px;
+  height: 17px;
+  border-radius: 50%;
+}
+
+
+.jeni-green input{
+  border: 0;
+  border-radius: 50%;
+  width:17px;
+  height: 17px;
+  background: none;
+  position: absolute;
+  top: 83%;
+  left: 17%;
+
+}
+
+.jeni-pink{
+  float: left;
+  padding: 30px 30px;
+}
+
+.jeni-pink img{
+  width: 17px;
+  height: 17px;
+  border-radius: 50%;
+}
+
+
+.jeni-pink input{
+  border: 0;
+  border-radius: 50%;
+  width:17px;
+  height: 17px;
+  background: none;
+  position: absolute;
+  top: 83%;
+  left: 19%;
+}
